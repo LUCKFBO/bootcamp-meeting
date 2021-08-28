@@ -10,7 +10,7 @@ Atividades que serão desenvolvidas e abordadas:
 * Desenvolvimento de operações de gerenciamento de salas (Cadastro, leitura, atualização e remoção de agendamentos).
 * Relação de cada uma das operações acima com o padrão arquitetural REST, e a explicação de cada um dos conceitos REST envolvidos durante o desenvolvimento do projeto.
 
-Para executar o projeto na IDE Intellj:
+Para executar o projeto na IDE Intellj e subir o backend:
 * clique em Run->Run'MeetingApplication', ou utilize o atalho Alt+Shift+X
 
 Para executar o projeto no terminal, digite o seguinte comando:
@@ -19,11 +19,20 @@ Para executar o projeto no terminal, digite o seguinte comando:
 mvn spring-boot:run 
 ```
 
+Para executar o projeto na IDE Visual Code Studio e subir o frontend:
+* clique em Terminal->New Terminal, ou utilize o atalho Ctrl+Shift+'
 
-Após executar um dos passos acima, basta apenas abrir o seguinte endereço e visualizar a execução do projeto:
+Para executar o projeto no terminal, digite o seguinte comando:
+
+```shell script
+ng serve
+```
+
+
+Após executar os passos acima, basta abrir o seguinte endereço no navegador e visualizar a execução do projeto backend + frontend:
 
 ```
-http://localhost:8080/api/v1/rooms
+http://localhost:4200
 ```
 
 
